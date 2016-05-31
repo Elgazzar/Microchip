@@ -1,0 +1,197 @@
+void CLEAR()
+{
+shiftdata595_1(0b00000000);
+latch595_1();
+delay_ms(5);
+shiftdata595_2(0b00000000);
+latch595_2();
+delay_ms(5);
+shiftdata595_3(0b00000000);
+latch595_2();
+delay_ms(5);
+}
+void TEST()
+{
+//Register 1
+shiftdata595_1(0b11111111);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b11111111);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b11111111);
+latch595_3();
+delay_ms(5);
+}
+void TWELVE()
+{
+// Register 1
+shiftdata595_1(0b00000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000010);
+latch595_3();
+delay_ms(5);
+}
+void FIVE_PAST_TWELVE()
+{
+// Register 1
+shiftdata595_1(0b01010010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000010);
+latch595_3();
+delay_ms(5);
+}
+void TEN_PAST_TWELVE()
+{
+shiftdata595_1(0b01000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000110);
+latch595_3();
+delay_ms(5);
+}
+void QUARTER_PAST_TWELVE()
+{
+shiftdata595_1(0b01000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000110);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000010);
+latch595_3();
+delay_ms(5);
+}
+void TWENTY_PAST_TWELVE()
+{
+shiftdata595_1(0b01000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00010100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000010);
+latch595_3();
+delay_ms(5);
+}
+void TWENTY_FIVE_PAST_TWELVE()
+{
+shiftdata595_1(0b01010010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00010100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000010);
+latch595_3();
+delay_ms(5);
+}
+void HALF_PAST_TWELVE()
+{
+shiftdata595_1(0b11000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b00000010);
+latch595_3();
+delay_ms(5);
+}
+void TWENTY_FIVE_TO_ONE()
+{
+shiftdata595_1(0b00010010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00010100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b11000000);
+latch595_3();
+delay_ms(5);
+}
+void TWENTY_TO_ONE()
+{
+shiftdata595_1(0b00000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00010100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b11000000);
+latch595_3();
+delay_ms(5);
+}
+void QUARTER_TO_ONE()
+{
+shiftdata595_1(0b00000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000110);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b11000000);
+latch595_3();
+delay_ms(5);
+}
+void TEN_TO_ONE()
+{
+shiftdata595_1(0b00000010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b11000100);
+latch595_3();
+delay_ms(5);
+}
+void FIVE_TO_ONE()
+{
+shiftdata595_1(0b00010010);
+latch595_1();
+delay_ms(5);
+//Register 2
+shiftdata595_2(0b00000100);
+latch595_2();
+delay_ms(5);
+//Register 3
+shiftdata595_3(0b11000000);
+latch595_3();
+delay_ms(5);
+}

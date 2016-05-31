@@ -1,0 +1,79 @@
+    //SIX
+  Load (0b00100010 , 0b00000100 , 0b00001000);
+  delay_ms(2000);
+      //FIVE_PAST_SIX
+  Load (0b01010010 , 0b00000100 , 0b00001000);
+  delay_ms(2000);
+  //TEN_PAST_SIX
+  Load (0b01000010 , 0b00000100 , 0b00001100);
+  delay_ms(2000);
+  //QUARTER_PAST_SIX
+  Load (0b01000010 , 0b00000110 , 0b00001000);
+  delay_ms(2000);
+  //TWENTY_PAST_SIX
+  Load (0b01000010 , 0b00010100 , 0b00001000);
+  delay_ms(2000);
+  //TWENTY_FIVE_PAST_SIX
+  Load (0b01010010 , 0b00010100 , 0b00001000);
+  delay_ms(2000);
+  //HALF_PAST_SIX
+  Load (0b11000010 , 0b00000100 , 0b00001000);
+  delay_ms(2000);
+  //TWENTY_FIVE_TO_SEVEN
+  Load (0b00110010 , 0b01010100 , 0b10000000);
+  delay_ms(2000);
+  //TWENTY_TO_SEVEN
+  Load (0b00100010 , 0b01010100 , 0b10000000);
+  delay_ms(2000);
+  //QUARTER_TO_SEVEN
+  Load (0b00100010 , 0b01000110 , 0b10000000);
+  delay_ms(2000);
+  //TEN_TO_SEVEN
+  Load (0b00100010 , 0b01000100 , 0b10000100);
+  delay_ms(5000);
+    //FIVE_TO_SEVEN
+  Load (0b00110010 , 0b01000100 , 0b10000000);
+  delay_ms(2000);
+ 
+ //SEVEN
+  Load (0b00100010 , 0b01000100 , 0b00000000 );
+  delay_ms(2000);
+      //FIVE_PAST_SEVEN
+  Load (0b01010010 , 0b01000100 , 0b00000000 );
+  delay_ms(2000);
+  //TEN_PAST_SEVEN
+  Load (0b01000010 , 0b01000100 , 0b00000100 );
+  delay_ms(2000);
+  //QUARTER_PAST_SEVEN
+  Load (0b01000010 , 0b01000110 , 0b00000000 );
+  delay_ms(2000);
+  //TWENTY_PAST_SEVEN
+  Load (0b01000010 , 0b01010100 , 0b00000000 );
+  delay_ms(2000);
+  //TWENTY_FIVE_PAST_SEVEN
+  Load (0b01010010 , 0b01010100 , 0b00000000 );
+  delay_ms(2000);
+  //HALF_PAST_SEVEN
+  Load (0b11000010 , 0b01000100 , 0b00000000 );
+  delay_ms(2000);
+  //TWENTY_FIVE_TO_EIGHT
+  Load (0b00110010 , 0b10010100 , 0b10000000 );
+  delay_ms(2000);
+  //TWENTY_TO_EIGHT
+  Load (0b00100010 , 0b10010100 , 0b10000000 );
+  delay_ms(2000);
+  //QUARTER_TO_EIGHT
+  Load (0b00100010 , 0b10000110 , 0b10000000 );
+  delay_ms(2000);
+  //TEN_TO_EIGHT
+  Load (0b00100010 , 0b10000100 , 0b10000100 );
+  delay_ms(5000);
+    //FIVE_TO_EIGHT
+  Load (0b00110010 , 0b10000100 , 0b10000000 );
+  delay_ms(2000);
+  //EIGHT
+  Load (0b00100010 , 0b10000100 , 0b00000000 );
+  delay_ms(2000);
+   //TEST
+  Load (0b11111111 , 0b11111111 , 0b11111111 );
+  delay_ms(2000);
